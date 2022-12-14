@@ -7,6 +7,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrikazOdeljenjaComponent } from './prikaz-odeljenja/prikaz-odeljenja.component';
 import {MatCardModule} from '@angular/material/card';
+import {FlexLayoutModule} from '@angular/flex-layout'
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
   ],
   imports: [
     BrowserModule,
+    FlexLayoutModule,
     MatCardModule,
     AppRoutingModule,
     BrowserAnimationsModule
