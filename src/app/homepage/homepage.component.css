@@ -1,0 +1,18 @@
+body {
+    background-color: #222;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes color {
+    0% {
+      background-color: #222;
+    }
+    50% {
+      background-color: #4285f4;
+    }
+    100% {
+      background-color: #222;
+    }
+  }
